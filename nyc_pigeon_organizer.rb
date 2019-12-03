@@ -9,7 +9,6 @@ def nyc_pigeon_organizer(data)
           inner_memo[name][key1] << key2.to_s
         end
       end
-  
       inner_memo
     end
     memo 
