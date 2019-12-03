@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
         puts name
         puts key2
         puts inner_memo
-        if inner_memo[name][] == nil then 
+        if inner_memo[name] == nil then 
           inner_memo[name] = {key1: [key2]}  
         else
           inner_memo[name][key1] = [key2]
