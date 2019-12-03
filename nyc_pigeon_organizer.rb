@@ -1,3 +1,3 @@
 def nyc_pigeon_organizer(data)
-  data.map {|pair| puts pair}
+  data.map do |pair| puts pair}
 end
