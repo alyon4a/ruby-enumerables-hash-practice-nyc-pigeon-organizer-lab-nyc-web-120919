@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
         if inner_memo[name] == nil then 
           inner_memo[name] = {key1 => [key2]}  
         else
-          inner_memo[name][key1] = [key2]
+          inner_memo[name][key1] = [] if inner_memo[name][key1] == nil
+          inner_memo[name][key1] << [key2]
         end
       end
   
