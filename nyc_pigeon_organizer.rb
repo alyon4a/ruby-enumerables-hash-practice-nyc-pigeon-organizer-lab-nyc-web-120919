@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         puts key
         puts inner_memo
         
-       # inner_memo.includes?(name) ? 
+        inner_memo.includes?(name) ? : inner_memo
       end
   
       inner_memo
