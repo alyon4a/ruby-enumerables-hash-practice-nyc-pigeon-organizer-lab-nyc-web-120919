@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
       names.map do |name|
         puts "_________________________"
         puts name
+        puts key1
         puts key2
         puts inner_memo
         if inner_memo[name] == nil then 
